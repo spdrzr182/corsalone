@@ -12,13 +12,20 @@
 </head>
 <body>
     <nav>
-        <a href="index.html"><div class="logo"><img src="src/images/cor.salon-logo (1).png" alt=""></div></a>
-        <div class="nav-items">
-        <a href="index.html">Inicio</a>
-        <a href="pages/about.html">Acerca de Nosotros</a>
-        <a href="pages/blog.html">Blog</a>
-        <a href="pages/contact.html">Contacto</a>
+        <a id="logo" class="logo" href="index.html"><img src="src/images/cor.salon-logo (1).png" alt="corsalone-logo"></a>
+        <ul class="nav-items">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="pages/about.html">Acerca de Nosotros</a></li>
+        <li><a href="pages/blog.html">Blog</a></li>
+        <li><a href="pages/contact.html">Contacto</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
+
     </nav>
     <div class="background-container">
     <section class="hero">
@@ -26,7 +33,7 @@
         <div class="column-left">
             <h1>Expertos en Belleza, con CORazon  <br>&hearts;</h1>
             <p>En CorSalon, nuestra prioridad es ofrecerte una experiencia unica e inigualable.</p>
-            <button>Haz tu Cita</button>
+            <a href="tel:686-407-2162"><button>Haz tu Cita</button></a>
         </div>
         <div class="column-right">
         </div>
@@ -35,7 +42,7 @@
 </div>
 
 <section class="products">
-    <div class="products-left"><img src="src/images/hair-care-3-1507938.jpg" alt=""></div>
+    <div class="products-left"><img src="src/images/hair-care-3-1507938.jpg" alt="hair care products"></div>
     
     <div class="products-right">
         <h2>Calidad que se hace notar.</h2>
@@ -49,7 +56,7 @@
     <div class="upper-services">
         <div class="service1">
             <h3>Corte de Cabello</h3>
-            <img src="src/images/hairdresser-cut-hair-her-client-hair-salon.jpg" alt="haircut">
+            <img src="src/images/hairdresser-cut-hair-her-client-hair-salon.jpg" alt="hair and scissors">
             <div class="text1">
             <p>Ofrecemos cortes modernos de mujer, hombre y de ninos. Siempre ofrecemos la mejor atencion al clientes en cada corte.</p>
         </div>
@@ -138,9 +145,9 @@
 <section class="social-media">
     
     <div class="sm-icons">
-        <a href="" id="facebook" class="fa fa-facebook"></a>
-        <a href="" id="instagram" class="fa fa-instagram"></a>
-        <a href="" id="phone" class="fa fa-phone"></a>
+        <a href="https://www.facebook.com/cor.salon" id="facebook" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/cor.salone/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR3Ju8NNDHg2ylP2tp-1G--y5NEFPKyl_zeEiPeWetUWCkp5e0bBKwugeDw" id="instagram" class="fa fa-instagram"></a>
+        <a href="tel:686-407-2162" id="phone" class="fa fa-phone"></a>
     </div>
 
 </section>
@@ -164,11 +171,12 @@
         </div>
         </div>
         <div class="rf-right">
-        <span>&copy; spdrzr182 <br> 2023</span>
+        <span>spdrzr182 &copy;2023</span>
         </div>
     </div>
 </footer>
 
 </body>
+<script src="src/template.js"></script>
 <script src="src/app.js"></script>
 </html>
