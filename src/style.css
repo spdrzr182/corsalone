@@ -835,7 +835,7 @@ footer {
     background-color: #ffcddd;
 }
 .blog-container {
-    max-width: 1800px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 1em;
     height: 100%;
@@ -923,7 +923,7 @@ footer {
     border-bottom-right-radius: 12px;
 }
 
-/*-------------------Contact Form--------------*/
+/*-------------------Contact Form-------------------*/
 
 .contact-title {
     font-size: 1.8em;
