@@ -132,7 +132,7 @@ from {
 
 .background-container {
     background: #ffcddd;
-    background-image:url(/src/images/combs-scissors-copy-space.jpg);
+    background-image:url(../src/images/combs-scissors-copy-space.jpg);
     background-position: center;
     background-size: cover;
     color: #fff;
